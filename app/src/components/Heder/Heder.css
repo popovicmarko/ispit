@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    height: 10vh;
+    width: 95vw;
+}
+.header-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    gap: 1rem;
+}
+.link-social{
+    display: flex;
+    gap: .5rem;
+}
+.link-app{
+    display: flex;
+    gap: 1rem;
+}
+.linkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #00a8fd;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+.Donate{
+    color: #fff;
+    background-color: green;
+
+}
+.linkButton:hover{
+    color: blue;
+}
+.Donate:hover{
+    color: #fff;
+    background-color: #00a8fd;
+}
